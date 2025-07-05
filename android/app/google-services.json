@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "359133442384",
+    "project_id": "admobs-e5044",
+    "storage_bucket": "admobs-e5044.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:359133442384:android:ebd339d3578d3913e17c55",
+        "android_client_info": {
+          "package_name": "com.admobs"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMP8gKQniOmO2wyNmWUXRY8yRPaugq664"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

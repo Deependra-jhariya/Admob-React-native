@@ -1,11 +1,21 @@
 import { StyleSheet, Text, View } from 'react-native'
-import React from 'react'
-
+import React, { useEffect } from 'react'
+import AllStack from './src/navigatation/AllStack/AllStack'
+import mobileAds from 'react-native-google-mobile-ads';
 const App = () => {
+
+   useEffect(() => {
+    // ✅ Initialize AdMob SDK
+    mobileAds()
+      .initialize()
+      .then(adapterStatuses => {
+        console.log('✅ AdMob SDK initialized');
+      });
+  }, []);
   return (
-    <View>
-      <Text>App</Text>
-    </View>
+   <>
+   <AllStack/>
+   </>
   )
 }
 
